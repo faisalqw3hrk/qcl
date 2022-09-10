@@ -1,0 +1,185 @@
+{
+    "patcherVersion": "1.7.2-PR",
+    "debug": false,
+    "enableAll": false,
+    "nickhider": {
+        "from": "You",
+        "to": "You",
+        "isEnabled": false
+    },
+    "fps": {
+        "pattern": "\u0001 %s",
+        "from": "FPS",
+        "to": "FPS",
+        "isEnabled": false
+    },
+    "cps": {
+        "pattern": "\u0001 %s",
+        "from": "CPS",
+        "to": "CPS",
+        "isEnabled": false
+    },
+    "autoGG": {
+        "from": "/achat gg",
+        "to": "/ac gg",
+        "isEnabled": false
+    },
+    "levelHead": {
+        "pattern": "%s: ",
+        "from": "Level",
+        "to": "Level",
+        "isEnabled": false
+    },
+    "metadata": {
+        "removeCalls": [
+            "serverIntegration",
+            "pinnedServers",
+            "modSettings",
+            "clientSettings",
+            "blogPosts"
+        ],
+        "isEnabled": false
+    },
+    "modpacketRemoval": {
+        "isEnabled": false
+    },
+    "cloaksPlus": {
+        "isEnabled": true
+    },
+    "windowName": {
+        "from": "Lunar Client (\u0001-\u0001/\u0001)",
+        "to": "qw3 Client",
+        "isEnabled": true
+    },
+    "noHitDelay": {
+        "isEnabled": false
+    },
+    "fpsSpoof": {
+        "multiplier": 2.0,
+        "isEnabled": false
+    },
+    "customCommands": {
+        "commands": {
+            "qb": {
+                "prefix": "/play duels_bridge_duel",
+                "suffix": ""
+            },
+            "qbd": {
+                "prefix": "/play duels_bridge_doubles",
+                "suffix": ""
+            },
+            "db": {
+                "prefix": "/duel ",
+                "suffix": " bridge"
+            },
+            "bwp": {
+                "prefix": "/play bedwars_practice",
+                "suffix": ""
+            }
+        },
+        "useHypixelCommands": true
+    },
+    "rpcUpdate": {
+        "clientID": 850586710588915722,
+        "icon": "logo",
+        "iconText": "qw3 Client",
+        "afkText": "AFK",
+        "menuText": "In Menu",
+        "singlePlayerText": "Playing Singleplayer",
+        "versionText": "Minecraft",
+        "displayActivity": true,
+        "customServerMappings": {
+        },
+        "showIcon": true,
+        "bigServerIcon": false,
+        "isEnabled": true
+    },
+    "tasklistPrivacy": {
+        "isEnabled": false
+    },
+    "hostslistPrivacy": {
+        "isEnabled": false
+    },
+    "uncapReach": {
+        "isEnabled": false
+    },
+    "removeFakeLevelhead": {
+        "isEnabled": false
+    },
+    "debugPackets": {
+        "isEnabled": false
+    },
+    "toggleSprintText": {
+        "replacements": {
+            "flying": "flying",
+            "riding": "riding",
+            "descending": "descending",
+            "dismounting": "dismounting",
+            "sneaking": "sneaking",
+            "sprinting": "sprinting"
+        },
+        "isEnabled": false
+    },
+    "reachText": {
+        "pattern": "\u0001 %s",
+        "from": "blocks",
+        "to": "blocks",
+        "isEnabled": false
+    },
+    "fixPings": {
+        "isEnabled": false
+    },
+    "lunarOptions": {
+        "isEnabled": false
+    },
+    "supportOverlays": {
+        "isEnabled": true
+    },
+    "toggleSneakContainer": {
+        "isEnabled": false
+    },
+    "pingText": {
+        "pattern": "\u0001 %s",
+        "from": "ms",
+        "to": "ms",
+        "isEnabled": false
+    },
+    "pingSpoof": {
+        "pingValue": "69",
+        "isEnabled": false
+    },
+    "clothCapes": {
+        "isEnabled": false
+    },
+    "hurtCamShake": {
+        "multiplier": 0.3,
+        "isEnabled": false
+    },
+    "chatLimit": {
+        "limit": 255,
+        "isEnabled": false
+    },
+    "mumbleFix": {
+        "isEnabled": false
+    },
+    "websocket": {
+        "to": "wss://socket.solartweaks.com",
+        "isEnabled": true
+    },
+    "enableWrapped": {
+        "isEnabled": false
+    },
+    "customMods": {
+        "textMods": [
+        ]
+    },
+    "removeChatDelay": {
+        "isEnabled": false
+    },
+    "allowCosmeticCombinations": {
+        "isEnabled": true
+    },
+    "removeSplashBlur": {
+        "isEnabled": false
+    }
+}
